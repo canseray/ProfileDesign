@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="add1"
+            app:srcCompat="@drawable/kare"
+            android:clickable="true"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add2"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add3"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add4"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add5"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add6"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add7"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add8"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add9"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add10"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add11"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            app:srcCompat="@drawable/kare"
+            android:onClick="add12"
+            android:clickable="true"/>
+    </GridLayout>
+
+
+
+
+</RelativeLayout>
